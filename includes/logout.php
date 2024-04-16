@@ -1,9 +1,9 @@
 <?php
 
-
-if (isset($_POST['logout'])) {
-    session_unset();
-    session_destroy();
-    header('Location: /esercizioS2_L1/login.php');
-    exit;
+if (!isset($_SESSION)) {
+    session_start();
 }
+
+session_destroy();
+
+header('Location: index.php');

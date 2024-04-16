@@ -2,8 +2,6 @@
 
 include_once __DIR__ . '/includes/init.php';
 
-include __DIR__ . '/includes/logout.php';
-
 include __DIR__ . '/includes/html.php';
 
 include __DIR__ . '/includes/navbar.php';

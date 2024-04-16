@@ -29,7 +29,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $errors['credentials'] = 'Credenziali non valide';
 }
 
-include __DIR__ . '/includes/logout.php';
 
 include __DIR__ . '/includes/html.php';
 
