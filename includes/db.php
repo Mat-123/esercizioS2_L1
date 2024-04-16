@@ -1,7 +1,7 @@
 <?php
 
 $host = 'localhost';
-$db   = 'users';
+$db   = 'ifoa';
 $user = 'root';
 $pass = '';
 
